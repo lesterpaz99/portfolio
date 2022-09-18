@@ -10,7 +10,8 @@ module.exports = {
         primaryColor: '#011221',
         secondaryColor: '#4D5BCE',
         accentColor: '#43D9AD',
-        linesColor: '#1E2D3D'
+        linesColor: '#1E2D3D',
+        textColor: '#607B96',
       }
     },
   },
