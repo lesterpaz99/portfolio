@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
 import { RenderModel } from '../components/RenderModel'
 import styles from '../styles/Home.module.scss'
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
       <main className={styles.main}>
       {/* <RenderModel /> */}
       </main>
+      <Footer />
     </div>
   )
 }
