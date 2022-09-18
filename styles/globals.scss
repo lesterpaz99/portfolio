@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Fira Code', monospace, 'Lato', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    min-height: 100vh;
+    color: white;
+    /* background: black; */
+    /* background: linear-gradient(to right, rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0)); */
+    // background: url('../public/images/grainyBg.jpg') no-repeat;
+    // background-size: cover;
+    
+   
+    background-color: rgb(30, 58, 138);
+    background-image: radial-gradient(at 73% 68%, rgb(15, 23, 42) 0, transparent 61%), radial-gradient(at 57% 73%, rgb(17, 24, 39) 0, transparent 96%), radial-gradient(at 100% 29%, rgb(23, 23, 23) 0, transparent 78%), radial-gradient(at 22% 6%, rgb(28, 25, 23) 0, transparent 28%), radial-gradient(at 42% 57%, rgb(24, 24, 27) 0, transparent 76%), radial-gradient(at 67% 82%, rgb(0, 0, 0) 0, transparent 45%);
+  }
+}

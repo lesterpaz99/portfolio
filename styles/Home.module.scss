@@ -1,0 +1,16 @@
+.gradientText {
+  /* background: #E8FA8C;
+  background: -webkit-linear-gradient(to right, #E8FA8C 0%, #40CFB7 100%);
+  background: -moz-linear-gradient(to right, #E8FA8C 0%, #40CFB7 100%);
+  background: linear-gradient(to right, #E8FA8C 0%, #40CFB7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  background: #36BBD6;
+background: -webkit-linear-gradient(to right, #36BBD6 0%, #E4EB88 100%);
+background: -moz-linear-gradient(to right, #36BBD6 0%, #E4EB88 100%);
+background: linear-gradient(to right, #36BBD6 0%, #E4EB88 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+  filter: brightness(1.5);
+}
