@@ -2,8 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
-import { RenderModel } from '../components/RenderModel'
-import styles from '../styles/Home.module.scss'
+import { Hero } from '../components/Hero'
 
 const Home: NextPage = () => {
   return (
@@ -14,8 +13,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main className={styles.main}>
-      {/* <RenderModel /> */}
+      <main>
+        <Hero />
       </main>
       <Footer />
     </div>
