@@ -12,6 +12,7 @@ module.exports = {
         accentColor: '#43D9AD',
         linesColor: '#1E2D3D',
         textColor: '#607B96',
+        textColor2: '#E5E9F0'
       }
     },
   },
