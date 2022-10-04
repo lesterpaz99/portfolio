@@ -33,8 +33,11 @@ export const Hero = () => {
               }}
             />
           </div>
-          {/* <p>{'//'} I build things for the web</p>
-          <p>{'//'} mainly coding user interfaces </p> */}
+          <p>
+              <span className="text-secondaryColor">const</span>{' '}
+              <span className="text-accentColor">githubProfile</span>{' = '}
+              <span className="text-thirdColor">&ldquo;<a className="underline" href="https://github.com/lesterpaz99" target="_blank" rel="noopener noreferrer">https://github.com/lesterpaz99</a>&rdquo;</span>
+            </p>
         </code>
       </div>
       {!isMobile && <RenderModel />}
