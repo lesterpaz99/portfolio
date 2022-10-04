@@ -24,7 +24,7 @@ export const Header = () => {
 	if (isMobile) {
 		return (
 			<>
-			<header className='w-full h-auto bg-primaryColor border-solid border-b-2 border-linesColor text-textColor fixed top-0 z-10 flex justify-between items-center px-4 py-5 backdrop-blur-3xl'>
+			<header className='w-full h-auto backdrop-blur-3xl border-solid border-b-2 border-linesColor text-textColor fixed top-0 z-10 flex justify-between items-center px-4 py-5 z-20'>
 				<p className='font-medium text-base text-textColor'>
 					obed-paz
 				</p>
@@ -38,7 +38,7 @@ export const Header = () => {
 	}
 
 	return (
-		<header className='w-full h-auto border-solid border-b-2 border-linesColor text-textColor fixed top-0 z-10'>
+		<header className='w-full h-auto border-solid border-b-2 border-linesColor text-textColor fixed top-0 z-10 backdrop-blur-3xl'>
 			<nav className='flex justify-between items-center'>
 				<div className='flex items-center'>
 					<p className='pr-40 pl-6 py-4 text-textColor'>obed-paz</p>
